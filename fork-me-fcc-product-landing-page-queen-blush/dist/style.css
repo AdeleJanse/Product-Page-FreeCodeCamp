@@ -1,0 +1,145 @@
+#header-img {
+  padding: 10px;
+  margin: 10px;
+  margin-top: 50px;
+  width: 250px;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+@media (max-width: 320px) {
+  #nav-bar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Meddon", cursive;
+  float: right;
+  margin: 75px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  background: #FF69B4;
+  border: 5px solid;
+  border-radius: 30%;
+}
+
+.flex-item {
+  width: 295px;
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+section {
+  padding: 20px;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  background: #FF69B4;
+  border: 5px solid black;
+  border-radius: 30%;
+}
+
+#company-name {
+  text-align: center;
+  font-size: 75px;
+  background-image: url;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+
+p {
+  text-align: center;
+  font-size: 40px;
+  font-family: "La Belle Aurore", cursive;
+}
+
+#our-products {
+  font-family: "Berkshire Swash", cursive;
+}
+
+#video {
+  display: block;
+  margin: auto;
+  padding: 15px;
+  width: 50%;
+  border: 5px solid black;
+}
+
+#email {
+  display: flex;
+  margin: auto;
+  width: 75%;
+  height: 40px;
+  text-align: center;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 30px;
+  border: 3px solid black;
+}
+
+#message {
+  display: flex;
+  margin: auto;
+  width: 75%;
+  height: 250px;
+  text-align: center;
+  overflow: hidden;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 30px;
+  border: 3px solid black;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 30px;
+  border: 3px solid black;
+  background: #FF69B4;
+}
+
+#space {
+  padding: 10px;
+}
+
+#space-2 {
+  padding: 10px;
+}
+
+space-3 {
+  padding: 10px;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/a4/10/94/a41094c06635e026fe3d6292b37af1de.jpg");
+  background-size: cover;
+}
